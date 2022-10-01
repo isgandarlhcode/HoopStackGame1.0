@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0059ff9c;
+}
+
+
+#stack1 {
+    position: relative;
+    margin-top: 52px;
+    margin-left: 50px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    cursor: move;
+}
+
+#stack2 {
+    position: absolute;
+    top: 100px;
+    margin-left: 450px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    cursor: move;
+}
+
+#stack3 {
+    position: absolute;
+    top: 100px;
+    margin-left: 850px;
+    box-shadow: 100vh;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    cursor: move;
+}
+#gamename {
+    position: relative;
+    left: 35%;
+    width: 306px;
+}
+
+#list {
+    width: 30px;
+    display: inline-flex;
+    margin-top: 70px;
+    border-top: 100%;
+    margin-left: 9rem;
+    height: 328px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        background: linear-gradient(#020e27d0, #40048f);
+    }
+
+    to {
+        background: linear-gradient(#020e27d0, #40048f);
+    }
+}
+
+#hoop5 {
+    width: 15rem;
+    height: 2rem;
+    margin-left: -6.5rem;
+    margin-top: 18rem;
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(212, 255, 0);
+}
+
+#hoop4 {
+    width: 13rem;
+    height: 2rem;
+    margin-left: -5.5rem;
+    margin-top: 16rem;
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(255, 0, 0);
+
+}
+
+#hoop3 {
+    width: 11rem;
+    height: 2rem;
+    margin-left: -4.5rem;
+    margin-top: 14rem;
+    position: absolute;
+    border-radius: 7px;
+    background-color: rgb(17, 0, 255);
+}
+
+#hoop2 {
+    width: 9rem;
+    height: 2rem;
+    margin-left: -3.5rem;
+    margin-top: 12rem;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #393939;
+}
+
+#hoop1 {
+    width: 7rem;
+    height: 2rem;
+    margin-left: -2.5rem;
+    margin-top: 10rem;
+    position: absolute;
+    border-radius: 7px;
+    background-color: #000000;
+}
